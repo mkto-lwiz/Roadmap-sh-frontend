@@ -1,0 +1,128 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    height: 900px;
+}
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+    border-width: 2px solid black;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #ffffff;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	
+}
+
+.overlay h3 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	margin-bottom: 30px;
+    color: rgb(62, 60, 60);
+}
+/* idea dump on
+the spot
+so to make the form look prety I have to adjust its precision beetween labels and  */
+/* .add-expense-form {
+    margin: 50px auto;
+    padding: 20px;
+    width: 50vw;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+} */
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.add_expense_form {
+    flex: 1 1 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+.add_expense_form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add_expense_form h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.add_expense_form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.add_expense_form input[type="text"],
+.add_expense_form input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+.add_expense_form input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+.add_expense_form [type="submit"]:hover {
+        background-color: #000000;
+    }
+
+.expenselist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%; 
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+.expenselist input[type="submit"] {
+    width: 30%;
+    padding: 12px;
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+.expenselist input[type="submit"]:hover {
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+}

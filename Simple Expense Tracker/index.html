@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wazzup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="overlay">
+            <h3>I don't what's this project is supposed to be, but you will get clarity by taking action I guess</h3>
+        </div>
+    </header>
+    <div class="content">
+        <div class="add_expense_form">
+        <h3>Add Expense</h3>
+        <form id="expenseForm">
+            <label for="expenseName">Expense Name:</label><br>
+            <input type="text" id="expenseName" name="expenseName" placeholder="Expense Name" required>
+            <br><br>
+            <label for="expenseAmount">Expense Amount:</label><br>
+            <input type="number" id="expenseAmount" name="expenseAmount" placeholder="Amount" required>
+            <br><br>
+            <input type="submit" value="Add Expense">
+        </form>
+        </div>
+        <div class="expenselist">
+            <h3>Expense List</h3>
+            <ul id="expenseList">
+                
+            </ul>
+            <input type="submit" value="Clear" id="clearExpensesBtn">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
