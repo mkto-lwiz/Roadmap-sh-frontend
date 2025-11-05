@@ -5,4 +5,4 @@ Localstorage expense tracker
 upcoming
 -  summary
 -  based on date expense
-https://github.com/mkto-lwiz/Roadmap-sh-frontend/tree/main/Simple%20Expense%20Tracker
+https://roadmap.sh/projects/expense-tracker
